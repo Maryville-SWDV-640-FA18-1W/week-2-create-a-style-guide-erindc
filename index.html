@@ -12,101 +12,6 @@
     <!-- Site theme -->
     <link rel="stylesheet" type="text/css" href="css/theme.css">
 
-    <!--  Place Custom Styles Below -->
-    <style>
-        body {
-            font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-            color: black;
-        }
-
-        h1 {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        h2 {
-            font-size: 20px;
-        }
-
-        h3 {
-            font-size: 16px;
-        }
-
-        button {
-            background-color: orange;
-            border-radius: 5px;
-            padding: 10px;
-            color: white;
-        }
-
-        .inputLabel {
-            font-size: 14px;
-            font-weight: bold;
-        }
-
-        input.inputField {
-            padding: 5px;
-            border: 1px solid orange;
-        }
-
-        div.box {
-            height: 100px;
-            width: 100px;
-            display: inline-block;
-            margin: 0 10px 0 10px;
-        }
-
-        #primary1 {
-            background-color: orange;
-        }
-
-        #primary2 {
-            background-color: red;
-        }
-
-        #primary3 {
-            background-color: yellow;
-        }
-
-        .warning {
-            background-color: yellow;
-            font-weight: bold;
-            color: black;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .danger {
-            background-color: red;
-            font-weight: bold;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .success {
-            background-color: green;
-            font-weight: bold;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        svg.svg-inline--fa {
-            color: white;
-        }
-
-        .spacer {
-            margin-top: 25px;
-        }
-
-        #footer {
-            border-top: 1px solid #dddddd;
-            margin-top: 50px;
-            padding: 10px;
-            text-align: center;
-        }
-    </style>
 	<!-- Include script for font awesome icon library -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
@@ -118,7 +23,7 @@
             <div class="navbar-header">
                 <a href="#">
                     <span class="navbar-brand">
-                        <i class="fas fa-home"></i>My Interface Style Guide</span>
+                        <i class="fas fa-home"></i>Bill Budgeter Style Guide</span>
                 </a>
             </div>
         </div>
@@ -153,7 +58,7 @@
                     <h1>
                         <a name="about"></a>My Styles</h1>
                 </div>
-                <p>This page contains specific style guide information for my front end interface.</p>
+                <p>This page contains specific style guide information for Bill Budgeter's front end interface.</p>
             </div>
             <!-- End About -->
 
@@ -163,8 +68,7 @@
                     <h1>
                         <a name="fonts"></a>Font</h1>
                 </div>
-                <p>My application utilizes the "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica,
-                    Arial, "sans-serif" font-family with black text.</p>
+                <p>My application utilizes the -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif font-family with black text.</p>
             </div>
             <div class="spacer">
                 <a href="#Top">Back to Top</a>
@@ -210,7 +114,7 @@
                         <a name="buttons"></a>Buttons</h1>
                 </div>
                 <p>The application will feature buttons that contain the below color and shape:</p>
-                <button>My Button</button>
+                <button class="btn">My Button</button>
             </div>
             <div class="spacer">
                 <a href="#Top">Back to Top</a>
@@ -223,10 +127,9 @@
                     <h1>
                         <a name="formElements"></a>Form Elements</h1>
                 </div>
-                <p>For the varous forms that the application will contain, it will contain input fields and labels with the below styling:</p>
+                <p>For the varous forms that the application will contain, it will contain input fields with the below styling:</p>
                 <form>
-                    <label for="name" class="inputLabel">Name</label>
-                    <input type="input" id="name" class="inputField" value="">
+                    <input type="input" id="name" class="inputField" value="" placeholder="InputField">
                 </form>
             </div>
             <div class="spacer">
@@ -241,9 +144,9 @@
                         <a name="messages"></a>Messages</h1>
                 </div>
                 <p>For various completed tasks, application notifications will be presented to the user based.  The following contextual messages will be used.</p>
-                <p class="warning">Warning!</p>
-                <p class="danger">Danger!</p>
-                <p class="success">Success!</p>
+                <p class="warning h3">Warning!</p>
+                <p class="danger h3">Danger!</p>
+                <p class="success h3">Success!</p>
             </div>
             <div class="spacer">
                 <a href="#Top">Back to Top</a>
